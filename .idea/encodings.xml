@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-cart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-cart/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-cms-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-cms-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-dictionary-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-dictionary-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-oms-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-oms-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-pay-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-pay-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-pms-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-pms-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-sms-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-sms-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-ums-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-api/zx-mall-ums-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-application/zx-mall-manager-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-application/zx-mall-manager-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-application/zx-mall-portal-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-application/zx-mall-portal-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-common/zx-mall-common-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-common/zx-mall-common-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-common/zx-mall-common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-common/zx-mall-common-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-service/zx-mall-ums/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zx-mall-service/zx-mall-ums/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

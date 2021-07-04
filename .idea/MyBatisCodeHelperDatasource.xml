@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="addSerializeUid" value="true" />
+        <option name="generateService" value="true" />
+        <option name="generateServiceInterface" value="true" />
+        <option name="javaMapperPackage" value="com.zx.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/zx-mall-service/zx-mall-ums/src/main/java" />
+        <option name="javaModelPackage" value="com.zx.entity" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/zx-mall-service/zx-mall-ums/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="zx-mall-ums" />
+        <option name="lombokDataAnnotation" value="true" />
+        <option name="mapperAnnotaion" value="true" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="zx-mall-ums">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.zx.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/zx-mall-service/zx-mall-ums/src/main/java" />
+                  <option name="javaModelPacakge" value="com.zx.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/zx-mall-service/zx-mall-ums/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.zx.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/zx-mall-service/zx-mall-ums/src/main/java" />
+                  <option name="javaServicePackage" value="com.zx.service" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/zx-mall-service/zx-mall-ums/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/zx-mall-service/zx-mall-ums/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="mybatisPlusStaticField" value="false" />
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="zx-mall:ums_member">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="UmsMember" />
+                  <option name="moduleName" value="zx-mall-ums" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="useExample" value="true" />
+        <option name="userMybatisPlus" value="true" />
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/zx-mall-service/zx-mall-ums/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

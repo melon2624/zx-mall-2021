@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-api/zx-mall-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-api/zx-mall-cms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-api/zx-mall-dictionary/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-api/zx-mall-oms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-api/zx-mall-pay-api/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-api/zx-mall-pms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-api/zx-mall-sms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-api/zx-mall-ums-api/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-application/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-application/zx-mall-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-application/zx-mall-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-common/zx-mall-common-base/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-common/zx-mall-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-service/zx-mall-ums/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/zx-mall-api/zx-mall-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/zx-mall-cart/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

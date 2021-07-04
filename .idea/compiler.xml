@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zx-mall-cms-api" />
+        <module name="zx-mall-api" />
+        <module name="zx-mall-cart" />
+        <module name="zx-mall-pms-api" />
+        <module name="zx-mall-pay-api" />
+        <module name="zx-mall-common" />
+        <module name="zx-mall-ums" />
+        <module name="zx-mall-application" />
+        <module name="zx-mall-generator" />
+        <module name="zx-mall-ums-api" />
+        <module name="zx-mall-oms-api" />
+        <module name="zx-mall-portal-web" />
+        <module name="zx-mall-service" />
+        <module name="zx-mall-sms-api" />
+        <module name="zx-mall-common-util" />
+        <module name="zx-mall-common-base" />
+        <module name="zx-mall-manager-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zx-api" target="1.8" />
+      <module name="zx-mall-cart" target="1.8" />
+      <module name="zx-mall-dictionary-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

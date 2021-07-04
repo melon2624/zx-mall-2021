@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zx.mapper.UmsMemberMapper">
+ <!-- <resultMap id="BaseResultMap" type="com.zx.entity.UmsMember">
+    &lt;!&ndash;@mbg.generated&ndash;&gt;
+    &lt;!&ndash;@Table ums_member&ndash;&gt;
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="icon" jdbcType="VARCHAR" property="icon" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="nick_name" jdbcType="VARCHAR" property="nickName" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="login_time" jdbcType="TIMESTAMP" property="loginTime" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+  </resultMap>
+-->
+  <select id="selectByName" parameterType="string" resultType="com.zx.entity.UmsMember">
+        select * from ums_member where username = #{name}
+    </select>
+
+</mapper>

@@ -49,22 +49,18 @@ public class UmsMemberServiceImpl implements UmsMemberService {
             String passwordDb = umsMember.getPassword();
 
             if(!passwordEncoder.matches(umsMemberLoginParamDTO.getPassword(),passwordDb)){
-
                 return "密码不正确";
                 // return ResultWrapper.getFailBuilder().code(StateCodeEnum.PASSWORD_ERROR.getCode()).msg(StateCodeEnum.PASSWORD_ERROR.getMsg()).build();
             }
-
         }else{
 
             return "用户不存在";
-
             // return ResultWrapper.getFailBuilder().code(StateCodeEnum.USER_EMPTY.getCode()).msg(StateCodeEnum.USER_EMPTY.getMsg()).build();
         }
 
         System.out.println("登录成功");
 
-
-        return null;
+        return umsMember.getId().toString();
     }
 
 }

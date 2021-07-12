@@ -7,23 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="zx-mall-cms-api" />
-        <module name="zx-mall-api" />
+        <module name="zx-mall-manager-web" />
+        <module name="zx-mall-pay-api" />
         <module name="zx-mall-cart" />
         <module name="zx-mall-pms-api" />
-        <module name="zx-mall-pay-api" />
+        <module name="zx-mall-cms-api" />
         <module name="zx-mall-common" />
-        <module name="zx-mall-ums" />
         <module name="zx-mall-application" />
         <module name="zx-mall-generator" />
         <module name="zx-mall-ums-api" />
         <module name="zx-mall-oms-api" />
         <module name="zx-mall-portal-web" />
-        <module name="zx-mall-service" />
         <module name="zx-mall-sms-api" />
+        <module name="zx-mall-api" />
+        <module name="zx-mall-ums" />
         <module name="zx-mall-common-util" />
         <module name="zx-mall-common-base" />
-        <module name="zx-mall-manager-web" />
+        <module name="zx-mall-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -1,7 +1,9 @@
 package com.zx.controller;
 
+import com.zx.annotations.TokenCheck;
 import com.zx.entity.dto.UmsMemberLoginParamDTO;
 import com.zx.entity.dto.UmsMemberRegisterParamDTO;
+import com.zx.result.ResultWrapper;
 import com.zx.service.UmsMemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -34,13 +36,12 @@ public class UserMemberController {
 
 
     @RequestMapping("/login")
-    public  String  login(@RequestBody UmsMemberLoginParamDTO umsMemberLoginParamDTO){
-        umsMemberService.login(umsMemberLoginParamDTO);
+    @TokenCheck
+    public ResultWrapper login(@RequestBody UmsMemberLoginParamDTO umsMemberLoginParamDTO){
+      String id=  umsMemberService.login(umsMemberLoginParamDTO);
 
-        return "登录成功";
+        return ResultWrapper.getSuccessBuilder().data(id).build();
     }
-
-
 
 
 }
